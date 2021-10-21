@@ -1,0 +1,30 @@
+lockfileVersion: 5.3
+
+specifiers:
+  husky: ^7.0.4
+  is-ci: ^3.0.0
+
+devDependencies:
+  husky: registry.npmmirror.com/husky/7.0.4
+  is-ci: 3.0.0
+
+packages:
+
+  /ci-info/3.2.0:
+    resolution: {integrity: sha1-KHbLlIpJh5e1I28AlbwFfQ3KOLY=, tarball: ci-info/download/ci-info-3.2.0.tgz}
+    dev: true
+
+  /is-ci/3.0.0:
+    resolution: {integrity: sha1-x+e+PJ2O730PoUQ5C9HkuI3EyZQ=, tarball: is-ci/download/is-ci-3.0.0.tgz}
+    hasBin: true
+    dependencies:
+      ci-info: 3.2.0
+    dev: true
+
+  registry.npmmirror.com/husky/7.0.4:
+    resolution: {integrity: sha1-JCBIJF3EnI+xvwzHz7mN1yJTFTU=, registry: https://registry.nlark.com/, tarball: https://registry.npmmirror.com/husky/download/husky-7.0.4.tgz}
+    name: husky
+    version: 7.0.4
+    engines: {node: '>=12'}
+    hasBin: true
+    dev: true
