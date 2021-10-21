@@ -1,7 +1,7 @@
 {
-  "name": "git01",
+  "name": "commitlint101",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo for husky & commitlint",
   "main": "index.js",
   "scripts": {
     "prepare": "is-ci || husky install",
